@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Core", "BKit.Core\BKit.Core.csproj", "{8678FDB8-98B3-4F30-A750-3FA4C2D932DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Compression", "BKit.Compression\BKit.Compression.csproj", "{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{8678FDB8-98B3-4F30-A750-3FA4C2D932DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8678FDB8-98B3-4F30-A750-3FA4C2D932DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8678FDB8-98B3-4F30-A750-3FA4C2D932DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56673968-3BE9-4ECE-85F7-764E77D89B0D}
 	EndGlobalSection
 EndGlobal
