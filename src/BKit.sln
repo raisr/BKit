@@ -3,20 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Core", "BKit.Core\BKit.Core.csproj", "{8678FDB8-98B3-4F30-A750-3FA4C2D932DB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Compression", "BKit.Compression\BKit.Compression.csproj", "{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Encryption", "BKit.Encryption\BKit.Encryption.csproj", "{59EE78AF-6A17-4B3D-BAD2-3F0468432208}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Storage", "BKit.Storage\BKit.Storage.csproj", "{F9CD257F-3AF5-4200-84B0-C9956CDDCFAC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Credentials", "BKit.Credentials\BKit.Credentials.csproj", "{DC9E44EF-D51A-491D-B87E-179F95DC9202}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Modules", "BKit.Modules\BKit.Modules.csproj", "{2885E712-E2DB-45A8-9CD3-46BD5FCECF45}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Rotation", "BKit.Rotation\BKit.Rotation.csproj", "{6BCFC713-49B7-4F77-B5A8-AEA37D9FB9BC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Cli", "BKit.Cli\BKit.Cli.csproj", "{A2C08473-9F9E-4200-B760-337E7700B4B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
@@ -27,34 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8678FDB8-98B3-4F30-A750-3FA4C2D932DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8678FDB8-98B3-4F30-A750-3FA4C2D932DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8678FDB8-98B3-4F30-A750-3FA4C2D932DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8678FDB8-98B3-4F30-A750-3FA4C2D932DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69B72B5B-874A-4DB0-84A2-C7EBDD86149B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59EE78AF-6A17-4B3D-BAD2-3F0468432208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59EE78AF-6A17-4B3D-BAD2-3F0468432208}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59EE78AF-6A17-4B3D-BAD2-3F0468432208}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59EE78AF-6A17-4B3D-BAD2-3F0468432208}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9CD257F-3AF5-4200-84B0-C9956CDDCFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9CD257F-3AF5-4200-84B0-C9956CDDCFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9CD257F-3AF5-4200-84B0-C9956CDDCFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9CD257F-3AF5-4200-84B0-C9956CDDCFAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DC9E44EF-D51A-491D-B87E-179F95DC9202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC9E44EF-D51A-491D-B87E-179F95DC9202}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC9E44EF-D51A-491D-B87E-179F95DC9202}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC9E44EF-D51A-491D-B87E-179F95DC9202}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2885E712-E2DB-45A8-9CD3-46BD5FCECF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2885E712-E2DB-45A8-9CD3-46BD5FCECF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2885E712-E2DB-45A8-9CD3-46BD5FCECF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2885E712-E2DB-45A8-9CD3-46BD5FCECF45}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6BCFC713-49B7-4F77-B5A8-AEA37D9FB9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BCFC713-49B7-4F77-B5A8-AEA37D9FB9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BCFC713-49B7-4F77-B5A8-AEA37D9FB9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BCFC713-49B7-4F77-B5A8-AEA37D9FB9BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A2C08473-9F9E-4200-B760-337E7700B4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A2C08473-9F9E-4200-B760-337E7700B4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2C08473-9F9E-4200-B760-337E7700B4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
