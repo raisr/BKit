@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BKit.Core.Abstractions.StorageProviders
+﻿namespace BKit.Core.Abstractions.StorageProviders
 {
-    internal interface IFileSystemStorageProvider
+    /// <summary>
+    /// Defines an interface for storage providers that interact with a file system.
+    /// </summary>
+    /// <remarks>Implementations of this interface provide file system-based storage operations. This
+    /// interface extends the functionality of IStorageProvider to support scenarios where storage is backed by a file
+    /// system.</remarks>
+    internal interface IFileSystemStorageProvider : IStorageProvider
     {
     }
 }
