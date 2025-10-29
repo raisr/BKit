@@ -7,4 +7,20 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="4.3.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-rc.2.25502.107" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BKit.Compression\BKit.Compression.csproj" />
+    <ProjectReference Include="..\BKit.Credentials\BKit.Credentials.csproj" />
+    <ProjectReference Include="..\BKit.Encryption\BKit.Encryption.csproj" />
+    <ProjectReference Include="..\BKit.Modules\BKit.Modules.csproj" />
+    <ProjectReference Include="..\BKit.Rotation\BKit.Rotation.csproj" />
+    <ProjectReference Include="..\BKit.Storage\BKit.Storage.csproj" />
+  </ItemGroup>
+
 </Project>
