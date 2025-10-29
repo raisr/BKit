@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.0.11123.170 d18.0
+VisualStudioVersion = 18.0.11123.170
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit.Cli", "BKit.Cli\BKit.Cli.csproj", "{A2C08473-9F9E-4200-B760-337E7700B4B6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Global", "_Global", "{AA9773D0-B00A-441A-A0F2-9342C8829640}"
@@ -13,16 +11,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Global", "_Global", "{AA97
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKit", "BKit\BKit.csproj", "{E67211E3-550D-66B2-C2FD-028A8E327420}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2C08473-9F9E-4200-B760-337E7700B4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2C08473-9F9E-4200-B760-337E7700B4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2C08473-9F9E-4200-B760-337E7700B4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2C08473-9F9E-4200-B760-337E7700B4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67211E3-550D-66B2-C2FD-028A8E327420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67211E3-550D-66B2-C2FD-028A8E327420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67211E3-550D-66B2-C2FD-028A8E327420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67211E3-550D-66B2-C2FD-028A8E327420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
