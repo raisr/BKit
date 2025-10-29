@@ -1,4 +1,4 @@
-﻿namespace BKit.Core.Abstractions
+﻿namespace BKit.Core.Abstractions.Models
 {
     internal interface IBackupContext
     {
