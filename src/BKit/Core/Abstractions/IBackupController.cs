@@ -1,6 +1,6 @@
 ﻿namespace BKit.Core.Abstractions
 {
-    internal interface IBackupCoordinator
+    internal interface IBackupController
     {
     }
 }
